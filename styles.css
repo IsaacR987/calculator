@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200vh;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 450px;
+    height: 500px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+#window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    margin-top: 10px;
+    width: 430px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 415px;
+    height: 85px;
+    border-radius: 10px;
+}
+
+.displayText {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 80px;
+    height: 70px;
+    width: 400px;
+}
+
+.numpad {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    width: 430px;
+    height: 375px;
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+}
+
+.num,
+.swap,
+.percent,
+.reset,
+.sign,
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    margin: 2px 2px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+#zero {
+    width: 205px;
+}
