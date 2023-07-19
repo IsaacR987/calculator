@@ -43,6 +43,9 @@ function changeDisplay() {
     } else if (content.textContent === numArray[numArray.length-1]) {
         content.textContent = "";
         content.textContent += this.textContent;
+    } else if (content.textContent.length === 10) {
+        content.textContent = content.textContent;
+        //limit of 10 numbers"
     } else {
         content.textContent += this.textContent;
     }
